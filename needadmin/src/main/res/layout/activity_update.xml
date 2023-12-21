@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/u1"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:id="@+id/updateName"
+           android:background="@drawable/blue_border"
+           android:hint="Enter name"
+           android:padding="16dp"
+           android:textColor="@color/blue"
+           android:gravity="start|center_vertical"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="10dp"
+           android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updatePosition"
+            android:background="@drawable/blue_border"
+            android:hint="Enter position"
+            android:padding="16dp"
+            android:textColor="@color/blue"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/referenceNeedItems"
+            android:background="@drawable/blue_border"
+            android:hint="Enter need items"
+            android:padding="16dp"
+            android:textColor="@color/blue"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updatePhone"
+            android:background="@drawable/blue_border"
+            android:hint="Enter phone"
+            android:padding="16dp"
+            android:textColor="@color/blue"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:id="@+id/updateButton"
+            android:text="UPDATE"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
